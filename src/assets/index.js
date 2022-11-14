@@ -1,6 +1,5 @@
 import bmiKalkulator from './bmi-kalkulator.png'
-import tafsiqQ from './tafsiqQ.png'
+import tafsirQ from './tafsirQ.png'
 
 
-export {bmiKalkulator}
-export {tafsiqQ}
+export {bmiKalkulator, tafsirQ}

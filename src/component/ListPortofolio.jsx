@@ -1,4 +1,4 @@
-import { bmiKalkulator, tafsiqQ } from '../assets'
+import { bmiKalkulator, tafsirQ } from '../assets'
 import './../CSS/ListPortofolio.css'
 
 const ListPortoFolio = () => {
@@ -42,7 +42,7 @@ const ListPortoFolio = () => {
         {
             id: 7,
             name: 'Project 7',
-            Picture: tafsiqQ,
+            Picture: tafsirQ,
             Link: ''
         },
         {
