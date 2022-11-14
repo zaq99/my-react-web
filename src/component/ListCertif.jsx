@@ -1,3 +1,4 @@
+import { sertfikatHtml, sertifikatCSS, sertifikatJs, sertifikatWeb } from '../assets'
 import './../CSS/ListCertif.css'
 
 const ListCertif = () => {
@@ -5,25 +6,25 @@ const ListCertif = () => {
         {
             id: 1,
             name: 'Skivul Badge HTML Dasar',
-            Picture: '/src/assets/Skilvul-HTML-Dasar.png',
+            Picture: sertfikatHtml,
             Link: ''
         },
         {
             id: 2,
             name: 'Skivul Badge CSS Dasar',
-            Picture: '/src/assets/Skilvul-css-dasar.png',
+            Picture: sertifikatCSS,
             Link: ''
         },
         {
             id: 3,
             name: 'Skivul Badge Javascript Dasar',
-            Picture: '/src/assets/Skilvul-Javascript-Dasar.png',
+            Picture: sertifikatJs,
             Link: ''
         },
         {
             id: 4,
             name: 'Skivul Badge Web Development Pemula',
-            Picture: '/src/assets/Skilvul-development-pemula.png',
+            Picture: sertifikatWeb,
             Link: ''
         },
 

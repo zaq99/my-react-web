@@ -1,4 +1,4 @@
-import { airBnb, bandaiNamco, bmiKalku, cocaCola, sunrisePay, tafsirQ, vector } from '../assets'
+import { airBnb, bandaiNamco, belajarAbc, bmiKalku, cocaCola, sunrisePay, tafsirQ, vector } from '../assets'
 import './../CSS/ListPortofolio.css'
 
 const ListPortoFolio = () => {
@@ -42,7 +42,7 @@ const ListPortoFolio = () => {
         {
             id: 7,
             name: 'Project 7',
-            Picture: sunrisePay,
+            Picture: belajarAbc,
             Link: ''
         },
         {
