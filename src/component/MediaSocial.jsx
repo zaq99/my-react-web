@@ -8,26 +8,22 @@ const MediaSocial = () => {
     const linkSocialMedia = [
         {
             id: 1,
-            icon: '/src/assets/icon-github.png',
-            nameLink: `${IconGithub}`,
+            icon: `${IconGithub}`,
             link: 'https://github.com/zaq99/'
         },
         {
             id: 2,
-            icon: '/src/assets/icon-ig.png',
-            nameLink: `${IconIg}`,
+            icon: `${IconIg}`,
             link: 'https://www.instagram.com/4r_razaq'
         },
         {
             id: 3,
-            icon: '/src/assets/icon-wa.png',
-            nameLink: `${IconWA}`,
+            icon: `${IconWA}`,
             link: 'https://wa.me/089688745529'
         },
         {
             id: 4,
-            icon: '/src/assets/icon-linkedin.png',
-            nameLink: `${IconLinkedin}`,
+            icon: `${IconLinkedin}`,
             link: 'https://linkedin.com/in/mohammad-rozakul-munir'
         }
     ]
@@ -36,32 +32,10 @@ const MediaSocial = () => {
         <>
             <div className=' d-flex gap-2'>
                 {linkSocialMedia.map((item) => (
-                    <div key={item.id} className="icon-media bg-secondary">
-                        <img src={item.nameLink} alt={item.nameLink} />
-                    </div>
-
-                    // setTimeout(() => {
-                    //     <div key={item.id} className="icon-media bg-secondary animate__animated animate__fadeInUpBig animate__delay-{item.id}s">
-                    //         <img src={item.icon} alt={item.nameLink} />
-                    //     </div>
-                    // }, 2000);
+                    <a key={item.id} className="icon-media bg-secondary">
+                        <img src={item.icon} alt={item.nameLink} />
+                    </a>
                 ))}
-
-
-
-
-
-                {/* <div className="icon-media bg-secondary animate__animated animate__fadeInUpBig animate__delay-1s">
-                    <img src={IconIg} alt="icon-ig" />
-                </div>
-                <div className="icon-media bg-secondary animate__animated animate__fadeInUpBig animate__delay-2s">
-                    <img src={IconWA} alt="icon-wa" />
-                </div>
-                <div className="icon-media bg-secondary animate__animated animate__fadeInUpBig animate__delay-3s">
-                    <img src={IconLinkedin} alt="icon-linkedin" />
-                </div>
-                <div className="icon-media bg-secondary animate__animated animate__fadeInUpBig animate__delay-4s">
-                    <img src={IconGithub} alt="icon-github" /> */}
             </div>
         </>
     )

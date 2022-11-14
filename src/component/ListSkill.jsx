@@ -1,3 +1,4 @@
+import { aiLogo, btrLogo, cssLogo, figmaLogo, githubLogo, gitLogo, htmlLogo, jsLogo } from '../assets'
 import './../CSS/ListSkill.css'
 
 const ListSkill = () => {
@@ -5,42 +6,42 @@ const ListSkill = () => {
         {
             id: 1,
             name: 'Figma Logo',
-            logo: '/src/assets/figma-logo.png'
+            logo: figmaLogo
         },
         {
             id: 2,
             name: 'HTML Logo',
-            logo: '/src/assets/html-logo.png'
+            logo: htmlLogo
         },
         {
             id: 3,
             name: 'CSS Logo',
-            logo: '/src/assets/css-logo.png'
+            logo: cssLogo
         },
         {
             id: 4,
             name: 'Bootstrap Logo',
-            logo: '/src/assets/btr-logo.png'
+            logo: btrLogo
         },
         {
             id: 5,
             name: 'Git Logo',
-            logo: '/src/assets/git-logo.png'
+            logo: gitLogo
         },
         {
             id: 6,
             name: 'Js Logo',
-            logo: '/src/assets/js-logo.png'
+            logo: jsLogo
         },
         {
             id: 7,
             name: 'Github Logo',
-            logo: '/src/assets/github-logo.png'
+            logo: githubLogo
         },
         {
             id: 8,
             name: 'Illuastator Logo',
-            logo: '/src/assets/ai-logo.png'
+            logo: aiLogo
         },
     ]
 

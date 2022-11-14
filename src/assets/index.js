@@ -13,5 +13,14 @@ import sertifikatCSS from './SkilvulCssDasar.png'
 import sertifikatJs from './SkilvulJavascriptDasar.png'
 import sertifikatWeb from './SkilvulDevelopmentPemula.png'
 
+import aiLogo from './ai-logo.png'
+import cssLogo from './css-logo.png'
+import figmaLogo from './figma-logo.png'
+import gitLogo from './git-logo.png'
+import htmlLogo from './html-logo.png'
+import jsLogo from './js-logo.png'
+import btrLogo from './btr-logo.png'
+import githubLogo from './github-logo.png'
 
-export {tafsirQ, bandaiNamco, cocaCola, personalWeb, airBnb, belajarAbc, sunrisePay, bmiKalku, vector, sertfikatHtml, sertifikatCSS, sertifikatJs, sertifikatWeb}
+
+export {tafsirQ, bandaiNamco, cocaCola, personalWeb, airBnb, belajarAbc, sunrisePay, bmiKalku, vector, sertfikatHtml, sertifikatCSS, sertifikatJs, sertifikatWeb, htmlLogo, jsLogo, cssLogo, aiLogo, figmaLogo, btrLogo, gitLogo, githubLogo}
