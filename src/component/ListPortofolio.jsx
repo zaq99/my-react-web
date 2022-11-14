@@ -1,4 +1,4 @@
-import { tafsirQ } from '../assets'
+import { airBnb, bandaiNamco, bmiKalku, cocaCola, sunrisePay, tafsirQ, vector } from '../assets'
 import './../CSS/ListPortofolio.css'
 
 const ListPortoFolio = () => {
@@ -6,49 +6,49 @@ const ListPortoFolio = () => {
         {
             id: 1,
             name: 'Project 1',
-            Picture: '/src/assets/bandai.png',
+            Picture: bandaiNamco,
             Link: ''
         },
         {
             id: 2,
             name: 'Project 2',
-            Picture: '/src/assets/airBnb.png',
+            Picture: airBnb,
             Link: ''
         },
         {
             id: 3,
             name: 'Project 3',
-            Picture: '/src/assets/cocaCola.png',
+            Picture: cocaCola,
             Link: ''
         },
         {
             id: 4,
             name: 'Project 4',
-            Picture: '/src/assets/tafsirQ.png',
+            Picture: tafsirQ,
             Link: ''
         },
         {
             id: 5,
             name: 'Project 5',
-            Picture: '/src/assets/vetor-1.png',
+            Picture: vector,
             Link: ''
         },
         {
             id: 6,
             name: 'Project 6',
-            Picture: '/src/assets/sunrisePay.png',
+            Picture: sunrisePay,
             Link: ''
         },
         {
             id: 7,
             name: 'Project 7',
-            Picture: tafsirQ,
+            Picture: sunrisePay,
             Link: ''
         },
         {
             id: 8,
             name: 'Project 8',
-            Picture: 'bmiKalkulator',
+            Picture: bmiKalku,
             Link: ''
         },
 
