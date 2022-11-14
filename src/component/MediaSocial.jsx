@@ -37,7 +37,7 @@ const MediaSocial = () => {
             <div className=' d-flex gap-2'>
                 {linkSocialMedia.map((item) => (
                     <div key={item.id} className="icon-media bg-secondary">
-                        <img src={item.icon} alt={item.nameLink} />
+                        <img src={item.nameLink} alt={item.nameLink} />
                     </div>
 
                     // setTimeout(() => {
