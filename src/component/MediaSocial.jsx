@@ -32,7 +32,7 @@ const MediaSocial = () => {
         <>
             <div className=' d-flex gap-2'>
                 {linkSocialMedia.map((item) => (
-                    <a key={item.id} className="icon-media bg-secondary">
+                    <a key={item.id} className="icon-media bg-secondary" href={item.link}>
                         <img src={item.icon} alt={item.nameLink} />
                     </a>
                 ))}

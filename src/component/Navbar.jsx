@@ -14,7 +14,7 @@ const Navbar = () => {
                     <Link to='/portofolio' className="mx-3 text-decoration-none">Portofolio</Link>
                     <Link to='/article' className="mx-3 text-decoration-none">Article</Link>
                 </div>
-                <button className="tombol btn btn-primary warna-bg-utama" id="btnKontak">Kontak</button>
+                <a href="https://wa.me/089688745529" className="tombol btn btn-primary warna-bg-utama" id="btnKontak">Kontak</a>
             </nav>
         </>
     )
