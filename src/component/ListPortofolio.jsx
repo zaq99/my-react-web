@@ -1,3 +1,4 @@
+import { bmiKalkulator } from '../assets'
 import './../CSS/ListPortofolio.css'
 
 const ListPortoFolio = () => {
@@ -47,7 +48,7 @@ const ListPortoFolio = () => {
         {
             id: 8,
             name: 'Project 8',
-            Picture: '/src/assets/bmi-kalkulator.png',
+            Picture: bmiKalkulator,
             Link: ''
         },
 
