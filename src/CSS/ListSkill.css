@@ -1,0 +1,18 @@
+/* --- logo skill */
+.logo-skill{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.15));
+}
+
+/* ///////// mobile ////////////// */
+
+@media (max-width: 576px) { 
+    .list-skill{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .list-skill .logo-skill{
+        width: 40px;
+    }
+
+}

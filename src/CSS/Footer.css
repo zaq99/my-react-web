@@ -1,0 +1,19 @@
+/* ------------ footer ------------- */
+.footer{
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+
+.footer .icon-media{
+    /* text-align: center; */
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------ footer end --------- */

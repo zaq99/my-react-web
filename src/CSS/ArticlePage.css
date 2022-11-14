@@ -1,0 +1,11 @@
+.main {
+    margin-top: 200px;
+}
+
+/* //////// mobile /////// */
+
+@media (max-width: 576px) { 
+    .articlePage{
+        padding: 40px;
+    }
+}

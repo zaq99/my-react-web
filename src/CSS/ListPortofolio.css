@@ -1,0 +1,12 @@
+.berbayang {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.15));
+}
+
+/* //////// mobile ///////// */
+@media (max-width: 576px) { 
+
+    .porto{
+        height: auto;
+        width: 100%;
+    }
+}

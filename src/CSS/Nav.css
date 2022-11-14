@@ -1,0 +1,30 @@
+/* ------------ nav ----------------- */
+nav{
+    height: 60px;
+}
+
+nav a{
+    color: #232323;
+}
+
+nav a:hover{
+    color: var(--warna-utama);
+}
+
+
+
+/* //////////// mobile ////////////// */
+
+@media (max-width: 576px) { 
+
+    nav .tombol {
+        padding: 90px;
+        display: none;
+    }
+
+    nav > div {
+        display: none;
+        position: absolute;
+    }
+
+}

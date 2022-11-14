@@ -1,0 +1,11 @@
+/* /////////// mobile /////////// */
+@media (max-width: 576px) { 
+    .list-sertif{
+        justify-content: center;
+    }
+
+    .sertif{
+        height: auto;
+        width: 100%;
+    }
+}

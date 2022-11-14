@@ -1,0 +1,26 @@
+/* ------------ HomePage ----------- */
+
+h1{
+    font-size: 48px;
+    color: var(--warna-utama);
+}
+
+/* ////////// mobile ///////////// */
+@media (max-width: 576px) {
+
+    div .home{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .fotoHome{
+        width: 300px;
+        height: 300px;
+    }
+
+    .home > div{
+        text-align: center;
+        justify-content: center;
+    }
+
+}
