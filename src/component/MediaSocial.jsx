@@ -9,25 +9,25 @@ const MediaSocial = () => {
         {
             id: 1,
             icon: '/src/assets/icon-github.png',
-            nameLink: { IconGithub },
+            nameLink: `${IconGithub}`,
             link: 'https://github.com/zaq99/'
         },
         {
             id: 2,
             icon: '/src/assets/icon-ig.png',
-            nameLink: { IconIg },
+            nameLink: `${IconIg}`,
             link: 'https://www.instagram.com/4r_razaq'
         },
         {
             id: 3,
             icon: '/src/assets/icon-wa.png',
-            nameLink: { IconWA },
+            nameLink: `${IconWA}`,
             link: 'https://wa.me/089688745529'
         },
         {
             id: 4,
             icon: '/src/assets/icon-linkedin.png',
-            nameLink: { IconLinkedin },
+            nameLink: `${IconLinkedin}`,
             link: 'https://linkedin.com/in/mohammad-rozakul-munir'
         }
     ]
