@@ -21,6 +21,33 @@ import htmlLogo from './html-logo.png'
 import jsLogo from './js-logo.png'
 import btrLogo from './btr-logo.png'
 import githubLogo from './github-logo.png'
+import infiniteLogo from './infinite-logo.png'
+import canvaLogo from './canva-logo.png'
 
 
-export {tafsirQ, bandaiNamco, cocaCola, personalWeb, airBnb, belajarAbc, sunrisePay, bmiKalku, vector, sertfikatHtml, sertifikatCSS, sertifikatJs, sertifikatWeb, htmlLogo, jsLogo, cssLogo, aiLogo, figmaLogo, btrLogo, gitLogo, githubLogo}
+export {
+    tafsirQ, 
+    bandaiNamco, 
+    cocaCola, 
+    personalWeb, 
+    airBnb, 
+    belajarAbc, 
+    sunrisePay, 
+    bmiKalku, 
+    vector, 
+    sertfikatHtml, 
+    sertifikatCSS, 
+    sertifikatJs, 
+    sertifikatWeb, 
+    htmlLogo, 
+    jsLogo, 
+    cssLogo, 
+    aiLogo, 
+    figmaLogo, 
+    btrLogo, 
+    gitLogo, 
+    githubLogo,
+    canvaLogo,
+    infiniteLogo
+
+}

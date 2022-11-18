@@ -1,4 +1,4 @@
-import { aiLogo, btrLogo, cssLogo, figmaLogo, githubLogo, gitLogo, htmlLogo, jsLogo } from '../assets'
+import { aiLogo, btrLogo, canvaLogo, cssLogo, figmaLogo, githubLogo, gitLogo, htmlLogo, infiniteLogo, jsLogo } from '../assets'
 import './../CSS/ListSkill.css'
 
 const ListSkill = () => {
@@ -42,6 +42,16 @@ const ListSkill = () => {
             id: 8,
             name: 'Illuastator Logo',
             logo: aiLogo
+        },
+        {
+            id: 9,
+            name: 'Canva Logo',
+            logo: canvaLogo
+        },
+        {
+            id: 10,
+            name: 'Infinite Design Logo',
+            logo: infiniteLogo
         },
     ]
 
