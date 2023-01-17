@@ -1,14 +1,13 @@
-import ListPortoFolio from "../component/ListPortofolio"
+import ListPortoFolio from "../component/ListPortofolio";
 
 const PortofolioPage = () => {
     return (
         <>
-            <div className="container">
+            <div className="container mb-5">
                 <ListPortoFolio />
-
             </div>
         </>
-    )
-}
+    );
+};
 
-export default PortofolioPage 
+export default PortofolioPage;
