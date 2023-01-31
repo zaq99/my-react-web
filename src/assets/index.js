@@ -26,6 +26,8 @@ import infiniteLogo from "./infinite-logo.png";
 import canvaLogo from "./canva-logo.png";
 import tailwindLogo from "./tailwind-logo.png";
 import reactLogo from "./react-logo.png";
+import frontendLogo from "./frontend.png";
+import uidesignLogo from "./uidesign.png";
 
 export {
     tafsirQ,
@@ -54,4 +56,6 @@ export {
     infiniteLogo,
     reactLogo,
     tailwindLogo,
+    frontendLogo,
+    uidesignLogo,
 };
